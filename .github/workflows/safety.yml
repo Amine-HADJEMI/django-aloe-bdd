@@ -13,4 +13,4 @@ jobs:
           pip install safety pytest
       - name: run safety
         run: |
-          python3 -m safety .
+          python3 -m safety
