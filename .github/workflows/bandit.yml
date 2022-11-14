@@ -13,4 +13,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install bandit
       - name: Run Bandit Report
-        run:
+        run: bandit -r path
