@@ -13,4 +13,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install poetry
       - name: run poetry
-        run: python3 -m poetry /home/amine/epsi/Integration Scripting/Seance2/PROJET/django-aloe-bdd
+        run: python3 -m poetry .
